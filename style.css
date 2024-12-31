@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 33, 20);
+    font-family: Arial, sans-serif; /* Optional: adds a nice font */
+}
+
+.image-container {
+    display: flex; /* Use flexbox to align images */
+    flex-wrap: wrap; /* Allow images to wrap */
+    justify-content: center; /* Center images */
+    text-align: center;
+}
+
+.image-container img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(194, 82, 82);
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Max width to prevent stretching */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.btn {
+    background-color: slateblue;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    color: rgb(240, 234, 234);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
